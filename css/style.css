@@ -322,6 +322,16 @@ body {
   max-width: 3%;
   width: 2%;
   height: 2%;
+  transition: all 0.2s ease-in-out;
+}
+.logo:hover {
+  filter: invert(100%);
+  scale: 1.1;
+  display: block;
+  margin: 2em auto;
+  max-width: 3%;
+  width: 2%;
+  height: 2%;
 }
 
 .icon {
@@ -618,7 +628,7 @@ body {
   font-size: clamp(0.6rem, 3vw, 0.8rem);
   height: clamp(35vh, 40vh, 35vh);
   width: clamp(35vw, 40vw, 35vw);
-  min-width: 35vh;
+  min-width: 40vh;
   min-height: 35vw;
   touch-action: pan-x;
   pointer-events: auto;
@@ -690,13 +700,13 @@ body {
 .carousel__item:nth-child(1) .demo-content:hover {
   background-color: red;
   background-color: var(--colors-accent9);
-  background: url("../assets/images/17.webp") no-repeat center center;
+  background: url("../assets/Images/17.webp") no-repeat center center;
   background-size: cover;
 }
 
 .carousel__item:nth-child(2) .demo-content {
-  background: url("../assets/images/7.webp") no-repeat center center;
-  /* background-position: right; */
+  background: url("../assets/Images/13.webp") no-repeat center center;
+  /* background-position: -130px 5px; */
   /* background-color: #3692b6; */
   /* width: 70%; */
   background-size: cover;
@@ -711,20 +721,20 @@ body {
 
 .carousel__item:nth-child(3) .demo-content {
   background-color: #6fccc9;
-  background: url("../assets/images/11.webp") no-repeat center center;
+  background: url("../assets/Images/11.webp") no-repeat center center;
   background-size: cover;
   /* width: 70%; */
 }
 .carousel__item:nth-child(3) .demo-content:hover {
   background-color: #6fccc9;
-  background: url("../assets/images/14.webp") no-repeat center center;
+  background: url("../assets/Images/14.webp") no-repeat center center;
 
   background-size: cover;
   /* width: 70%; */
 }
 
 .carousel__item:nth-child(4) .demo-content {
-  background: url("../assets/images/5.webp") no-repeat center center;
+  background: url("../assets/Images/5.webp") no-repeat center center;
   /* background-position: right; */
   /* background-color: #3692b6; */
   /* width: 70%; */
@@ -733,24 +743,39 @@ body {
 
 .carousel__item:nth-child(5) .demo-content {
   background-color: var(--colors-accent9);
-  background: url("../assets/images/15.webp") no-repeat center center;
+  background: url("../assets/Images/15.webp") no-repeat center center;
   background-size: cover;
   /* filter: blur(6px); */
 }
 .carousel__item:nth-child(5) .demo-content:hover {
   background-color: red;
   background-color: var(--colors-accent9);
-  background: url("../assets/images/16.webp") no-repeat center center;
+  background: url("../assets/Images/16.webp") no-repeat center center;
   filter: blur(0px);
   background-size: cover;
 }
 
 .carousel__item:nth-child(6) .demo-content {
+  background-color: var(--colors-accent9);
+  background: url("../assets/Images/18.webp") no-repeat center center;
+  background-size: cover;
+}
+
+.carousel__item:nth-child(6) .demo-content:hover {
+  background-color: var(--colors-accent9);
+  background: url("../assets/videos/8.webp") no-repeat center center;
+  background-size: cover;
 }
 
 .carousel__item:nth-child(7) .demo-content {
+  background-color: var(--colors-accent9);
+  background: url("../assets/videos/9.webp") no-repeat center center;
+  background-size: cover;
 }
 .carousel__item:nth-child(7) .demo-content:hover {
+  background-color: var(--colors-accent9);
+  background: url("../assets/Images/19.webp") no-repeat center center;
+  background-size: cover;
 }
 
 @media screen and (max-width: 1023px) {
